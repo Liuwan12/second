@@ -12,6 +12,8 @@
 * 使用TabNavigator进行底部导航
 * selectedTab默认home
 #### 2.记录一次报错
-1.ReactNative项目报UnhandledPromiseRejectionWarning 错误
+1.导入react-native-tab-navigatorReactNative项目报UnhandledPromiseRejectionWarning 错误
 原因：权限问题在上层目录下输入chmod -R 777 xxx(项目名) 解决
+2.导入react-native-deprecated-custom-components导航控制组件时
+原因：不能直接写Navigator：需写上renderScene等必备参数
 
