@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,Image} from 'react-native';
-import {Navigator} from 'react-native-deprecated-custom-components'
+// import {Navigator} from 'react-native-deprecated-custom-components'
 import TabNavigator from 'react-native-tab-navigator';
 
 
