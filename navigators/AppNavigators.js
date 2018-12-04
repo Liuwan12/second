@@ -1,8 +1,8 @@
-// import { StackNavigator } from 'react-navigation'
-// import HomePage from '../pages/HomePage' 
+import { createStackNavigator } from 'react-navigation'
+import HomePage from '../pages/HomePage' 
 
-// export const AppStackNavigator =  StackNavigator({
-//     HomePage: {
-//         screen: HomePage
-//     }
-// });
+export const AppStackNavigator =  createStackNavigator({
+    HomePage: {
+        screen: HomePage
+    }
+});

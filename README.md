@@ -16,6 +16,10 @@
 原因：权限问题在上层目录下输入chmod -R 777 xxx(项目名) 解决
 2. 导入react-native-deprecated-custom-components导航控制组件时
 原因：不能直接写Navigator：需写上renderScene等必备参数
+3. React Native: Command `run-ios` unrecognized
+解决：npm install --save react-native@latest
+4. getting undefined is not a function (evaluating '(0,_reactNavigation.stacknavigator)') in drawer navigation
+解决： Use createStackNavigator instead of stackNavigator.
 ## 二。第二章
 ### 1.导航器
   * StackNaigator类似于普通的navigator,屏幕上方导航栏
