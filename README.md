@@ -46,3 +46,8 @@
   * Back: 返回到上一个页面
   * Set Params: 设置指定页面的params(params,key)
   * init: 初始化stat如果state是undefined
+## 三。第三章
+### 1.stacknavigator的使用
+  * import { createStackNavigator ,createAppContainer} from 'react-navigation'
+  * export default createAppContainer(AppStackNavigator)
+  路由参考 https://reactnavigation.org/docs/en/hello-react-navigation.html#creating-a-stack-navigator
